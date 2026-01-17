@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Butcher",
+    "description": "Experienced butcher required for food processing and retail environments.",
+    "image": "src/assets/Butcher.png"
+  },
+  {
+    "title": "Baker",
+    "description": "Skilled baker for production of breads and viennoiserie.",
+    "image": "src/assets/Baker.png"
+  },
+  {
+    "title": "Pastry Chef",
+    "description": "Creative pastry chef with experience in desserts and plated presentations.",
+    "image": "src/assets/Pastry.png"
+  },
+  {
+    "title": "Fishmonger",
+    "description": "Fishmonger with knowledge of seafood handling and display.",
+    "image": "src/assets/fish.png"
+  },
+  {
+    "title": "Deli Salesperson",
+    "description": "Customer-focused deli salesperson for in-store service and preparation.",
+    "image": "src/assets/Deli.png"
+  },
+  {
+    "title": "Cheese Vendor",
+    "description": "Cheese specialist familiar with varieties and customer tastings.",
+    "image": "src/assets/Cheese.png"
+  }
+]

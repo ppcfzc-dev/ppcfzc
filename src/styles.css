@@ -1,0 +1,27 @@
+/* Job tile hover effect */
+.job-tile {
+  transition: box-shadow 0.3s cubic-bezier(.4,0,.2,1),
+    transform 0.3s cubic-bezier(.4,0,.2,1),
+    background 0.3s cubic-bezier(.4,0,.2,1);
+}
+.job-tile:hover {
+  box-shadow: 0 8px 32px 0 rgba(16,185,129,0.18), 0 1.5px 6px 0 rgba(0,0,0,0.08);
+  transform: translateY(-6px) scale(1.035);
+  background: linear-gradient(120deg, #d1fae5 0%, #f0fdfa 100%);
+}
+.dark .job-tile:hover {
+  background: linear-gradient(120deg, #134e4a 0%, #0f172a 100%);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project custom utilities */
+:root{
+  --brand-1: theme(colors.emerald.500);
+}
+
+body{ -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale }
+
+.fade-enter{ opacity:0; transform: translateY(6px) }
+.fade-enter-active{ transition: all .25s ease; opacity:1; transform: translateY(0) }
